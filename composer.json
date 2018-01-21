@@ -1,0 +1,24 @@
+{
+    "name": "adamalvis/csv-importer",
+    "description": "Laravel package for importing csv files and mapping to Eloquent models",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Adam Alvis",
+            "email": "adam.alvis@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "AdamAlvis\\CsvImporter\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AdamAlvis\\CsvImporter\\ServiceProvider"
+            ]
+        }
+    }
+}
